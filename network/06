@@ -1,0 +1,4 @@
+# l'IP du serveur DNS ou l'on utilise sur la machin est dans /etc/resolv.conf 
+# en faisant ls -l /etc/resolv.conf on nous donne la commande /var/run/resolv.conf 
+# il suffit alors de faire un cat tel que : cat /var/run/resolv.conf
+

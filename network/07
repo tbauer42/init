@@ -1,0 +1,3 @@
+nslookup slash16.org 8.8.8.8
+
+# nslookup permet d'interroger les serveurs DNS pour obtenir les informations definies pour un domaine determine

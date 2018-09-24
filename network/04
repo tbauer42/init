@@ -1,0 +1,4 @@
+netstat -nr | grep default | head -1 | awk '{print $2}'
+# netstat affiche les info sur la connection reseau dont les tables de routage
+# -n Affiche les connexions actives en format numerique
+# -r Affiche le contenu de la table de routage

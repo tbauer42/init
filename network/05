@@ -1,0 +1,5 @@
+dig slash16.org | grep SERVER | awk -F '[()]' '{print$2}'
+
+# dig permet dinterroger les serveurs DNS
+# l'IP se trouve sur la ligne SERVER
+# le -F permet de delimiter ce qu'on cherche
