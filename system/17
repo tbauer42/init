@@ -1,0 +1,2 @@
+# sudo iptables -L
+# Avec iptables -L on peut afficher les règles qui régissent actuellement le pare-feu

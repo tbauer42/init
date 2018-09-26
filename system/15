@@ -1,0 +1,3 @@
+# pkill tail
+# pour stopper un process en arriere plan il faut recup son PID puis le kill (kill $(pidof tail)).
+La commade pkill recupere automatiquement le PID
