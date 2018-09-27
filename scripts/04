@@ -1,0 +1,12 @@
+#!/bin/bash
+a = "$(md5sum /etc/crontab | cut -d " " -f 1)"
+b = "8f111d100ea459f68d333d63a8ef2205"
+
+if [ "$a" != "$b"] ; then
+	echo "/etc/crontab a ete modifie ces dernieres 24h" | mail -s " /etc/crontab " root
+# envoie un email local à root (echo -e "corps" | mail -s 'sujet' root)
+	exit 1
+fi
+
+# pour creer la tache planifie on fait avec crontab -e (commande pour editer la liste des taches) :
+# 0 0 * * * /path/to/file
