@@ -1,2 +1,3 @@
-# tail -f /var/log/syslog &
+#!/bin/bash
+tail -f /var/log/syslog &
 # le '&' permet dexecuter la commande en arriere plan

@@ -1,1 +1,2 @@
-# iptables -A INPUT -p all -s 10.0.0.0/8 -j ACCEPT
+#!/bin/bash
+iptables -A INPUT -p all -s 10.0.0.0/8 -j ACCEPT

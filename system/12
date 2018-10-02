@@ -1,1 +1,2 @@
-# du -h /var
+#!/bin/bash
+du -h /var

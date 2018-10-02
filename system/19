@@ -1,2 +1,3 @@
-# sudo iptables -A INPUT -j REJECT
+#!/bin/bash
+sudo iptables -A INPUT -j REJECT
 # source : https://serverfault.com/questions/157375/reject-vs-drop-when-using-iptables

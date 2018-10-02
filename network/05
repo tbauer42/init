@@ -1,3 +1,4 @@
+#!/bin/bash
 dig slash16.org | grep SERVER | awk -F '[()]' '{print$2}'
 
 # dig permet dinterroger les serveurs DNS
