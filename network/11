@@ -1,2 +1,2 @@
 # nat-1 : 10.60.1.11
-# nat = Network Address Translation4
+# nat = Network Address Translation4, nat-1 est le service qui fait le lien entre le reseau local et lexterieur
